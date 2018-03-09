@@ -29,3 +29,5 @@ echo $stats->exps->temp->curr;
 $stats = $seneye->getdevinfo();
 //Echo Slide expiry time
 echo $stats->status->slide_expires;
+?>
+'''
