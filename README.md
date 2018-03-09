@@ -9,7 +9,7 @@ Rough class to allow integration into Seneye.me public API
 
 ### Below is sample code to hook into the PHP Class File
 
-'''
+```
 <?php
 include "seneye.php";
 //Initate Class
@@ -30,4 +30,4 @@ $stats = $seneye->getdevinfo();
 //Echo Slide expiry time
 echo $stats->status->slide_expires;
 ?>
-'''
+```
